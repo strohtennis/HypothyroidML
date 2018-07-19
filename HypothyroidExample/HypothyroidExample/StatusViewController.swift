@@ -3,7 +3,7 @@
 //  HypothyroidExample
 //
 //  Created by Eric Stroh on 2/22/18.
-//  Copyright © 2018 Medullan. All rights reserved.
+//  Copyright © 2018 Strohtennis. All rights reserved.
 //
 
 import UIKit
