@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C18617F203F55D400093417 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C18617D203F55D400093417 /* ResultsViewController.swift */; };
+		6C186180203F55D400093417 /* ResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C18617E203F55D400093417 /* ResultsViewController.xib */; };
+		6C186183203F55E700093417 /* AgeSexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C186181203F55E700093417 /* AgeSexViewController.swift */; };
+		6C186184203F55E700093417 /* AgeSexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C186182203F55E700093417 /* AgeSexViewController.xib */; };
+		6C186187203F563F00093417 /* QueryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C186185203F563F00093417 /* QueryViewController.swift */; };
+		6C186188203F563F00093417 /* QueryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C186186203F563F00093417 /* QueryViewController.xib */; };
+		6C18618B203F566300093417 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C186189203F566300093417 /* StatusViewController.swift */; };
+		6C18618C203F566300093417 /* StatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C18618A203F566300093417 /* StatusViewController.xib */; };
+		6C18618F203F567100093417 /* BloodWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C18618D203F567100093417 /* BloodWorkViewController.swift */; };
+		6C186190203F567100093417 /* BloodWorkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C18618E203F567100093417 /* BloodWorkViewController.xib */; };
+		6CB3C6D220404D6F00A82B9D /* HypoThyroidClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6CB3C6D120404D6F00A82B9D /* HypoThyroidClassifier.mlmodel */; };
+		6CC62B1C203F42B7009506C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC62B1B203F42B7009506C2 /* AppDelegate.swift */; };
+		6CC62B1E203F42B7009506C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC62B1D203F42B7009506C2 /* ViewController.swift */; };
+		6CC62B21203F42B7009506C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CC62B1F203F42B7009506C2 /* Main.storyboard */; };
+		6CC62B23203F42B7009506C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CC62B22203F42B7009506C2 /* Assets.xcassets */; };
+		6CC62B26203F42B7009506C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CC62B24203F42B7009506C2 /* LaunchScreen.storyboard */; };
+		6CC62B30203F4D81009506C2 /* PredictionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC62B2F203F4D81009506C2 /* PredictionModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C18617D203F55D400093417 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		6C18617E203F55D400093417 /* ResultsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultsViewController.xib; sourceTree = "<group>"; };
+		6C186181203F55E700093417 /* AgeSexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeSexViewController.swift; sourceTree = "<group>"; };
+		6C186182203F55E700093417 /* AgeSexViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AgeSexViewController.xib; sourceTree = "<group>"; };
+		6C186185203F563F00093417 /* QueryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryViewController.swift; sourceTree = "<group>"; };
+		6C186186203F563F00093417 /* QueryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QueryViewController.xib; sourceTree = "<group>"; };
+		6C186189203F566300093417 /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		6C18618A203F566300093417 /* StatusViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatusViewController.xib; sourceTree = "<group>"; };
+		6C18618D203F567100093417 /* BloodWorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodWorkViewController.swift; sourceTree = "<group>"; };
+		6C18618E203F567100093417 /* BloodWorkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BloodWorkViewController.xib; sourceTree = "<group>"; };
+		6CB3C6D120404D6F00A82B9D /* HypoThyroidClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HypoThyroidClassifier.mlmodel; sourceTree = "<group>"; };
+		6CC62B18203F42B7009506C2 /* HypothyroidExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypothyroidExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CC62B1B203F42B7009506C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CC62B1D203F42B7009506C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CC62B20203F42B7009506C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CC62B22203F42B7009506C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CC62B25203F42B7009506C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CC62B27203F42B7009506C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CC62B2F203F4D81009506C2 /* PredictionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CC62B15203F42B7009506C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CC62B0F203F42B7009506C2 = {
+			isa = PBXGroup;
+			children = (
+				6CB3C6D120404D6F00A82B9D /* HypoThyroidClassifier.mlmodel */,
+				6CC62B1A203F42B7009506C2 /* HypothyroidExample */,
+				6CC62B19203F42B7009506C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CC62B19203F42B7009506C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CC62B18203F42B7009506C2 /* HypothyroidExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CC62B1A203F42B7009506C2 /* HypothyroidExample */ = {
+			isa = PBXGroup;
+			children = (
+				6CC62B1B203F42B7009506C2 /* AppDelegate.swift */,
+				6CC62B1D203F42B7009506C2 /* ViewController.swift */,
+				6CC62B1F203F42B7009506C2 /* Main.storyboard */,
+				6CC62B22203F42B7009506C2 /* Assets.xcassets */,
+				6CC62B24203F42B7009506C2 /* LaunchScreen.storyboard */,
+				6CC62B27203F42B7009506C2 /* Info.plist */,
+				6CC62B2F203F4D81009506C2 /* PredictionModel.swift */,
+				6C18617D203F55D400093417 /* ResultsViewController.swift */,
+				6C18617E203F55D400093417 /* ResultsViewController.xib */,
+				6C186181203F55E700093417 /* AgeSexViewController.swift */,
+				6C186182203F55E700093417 /* AgeSexViewController.xib */,
+				6C186185203F563F00093417 /* QueryViewController.swift */,
+				6C186186203F563F00093417 /* QueryViewController.xib */,
+				6C186189203F566300093417 /* StatusViewController.swift */,
+				6C18618A203F566300093417 /* StatusViewController.xib */,
+				6C18618D203F567100093417 /* BloodWorkViewController.swift */,
+				6C18618E203F567100093417 /* BloodWorkViewController.xib */,
+			);
+			path = HypothyroidExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CC62B17203F42B7009506C2 /* HypothyroidExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC62B2A203F42B7009506C2 /* Build configuration list for PBXNativeTarget "HypothyroidExample" */;
+			buildPhases = (
+				6CC62B14203F42B7009506C2 /* Sources */,
+				6CC62B15203F42B7009506C2 /* Frameworks */,
+				6CC62B16203F42B7009506C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HypothyroidExample;
+			productName = HypothyroidExample;
+			productReference = 6CC62B18203F42B7009506C2 /* HypothyroidExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CC62B10203F42B7009506C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Medullan;
+				TargetAttributes = {
+					6CC62B17203F42B7009506C2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6CC62B13203F42B7009506C2 /* Build configuration list for PBXProject "HypothyroidExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CC62B0F203F42B7009506C2;
+			productRefGroup = 6CC62B19203F42B7009506C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CC62B17203F42B7009506C2 /* HypothyroidExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CC62B16203F42B7009506C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC62B26203F42B7009506C2 /* LaunchScreen.storyboard in Resources */,
+				6C18618C203F566300093417 /* StatusViewController.xib in Resources */,
+				6C186188203F563F00093417 /* QueryViewController.xib in Resources */,
+				6CC62B23203F42B7009506C2 /* Assets.xcassets in Resources */,
+				6CC62B21203F42B7009506C2 /* Main.storyboard in Resources */,
+				6C186180203F55D400093417 /* ResultsViewController.xib in Resources */,
+				6C186190203F567100093417 /* BloodWorkViewController.xib in Resources */,
+				6C186184203F55E700093417 /* AgeSexViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CC62B14203F42B7009506C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C18618B203F566300093417 /* StatusViewController.swift in Sources */,
+				6CC62B1E203F42B7009506C2 /* ViewController.swift in Sources */,
+				6C186187203F563F00093417 /* QueryViewController.swift in Sources */,
+				6CC62B1C203F42B7009506C2 /* AppDelegate.swift in Sources */,
+				6CC62B30203F4D81009506C2 /* PredictionModel.swift in Sources */,
+				6CB3C6D220404D6F00A82B9D /* HypoThyroidClassifier.mlmodel in Sources */,
+				6C18618F203F567100093417 /* BloodWorkViewController.swift in Sources */,
+				6C186183203F55E700093417 /* AgeSexViewController.swift in Sources */,
+				6C18617F203F55D400093417 /* ResultsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6CC62B1F203F42B7009506C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CC62B20203F42B7009506C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CC62B24203F42B7009506C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CC62B25203F42B7009506C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CC62B28203F42B7009506C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CC62B29203F42B7009506C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CC62B2B203F42B7009506C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6VP5UK893;
+				INFOPLIST_FILE = HypothyroidExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medullan.HypothyroidExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CC62B2C203F42B7009506C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E6VP5UK893;
+				INFOPLIST_FILE = HypothyroidExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medullan.HypothyroidExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CC62B13203F42B7009506C2 /* Build configuration list for PBXProject "HypothyroidExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC62B28203F42B7009506C2 /* Debug */,
+				6CC62B29203F42B7009506C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CC62B2A203F42B7009506C2 /* Build configuration list for PBXNativeTarget "HypothyroidExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC62B2B203F42B7009506C2 /* Debug */,
+				6CC62B2C203F42B7009506C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CC62B10203F42B7009506C2 /* Project object */;
+}

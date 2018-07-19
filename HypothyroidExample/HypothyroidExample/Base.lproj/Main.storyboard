@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Bi0-od-RXp">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HypothyroidExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ly-VI-ZAr">
+                                <rect key="frame" x="150.5" y="214" width="73" height="30"/>
+                                <state key="normal" title="Enter Data"/>
+                                <connections>
+                                    <action selector="enterDataPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1I6-dV-KFz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q2h-xL-97F">
+                                <rect key="frame" x="126.5" y="268" width="121" height="30"/>
+                                <state key="normal" title="Use Positive Data"/>
+                                <connections>
+                                    <action selector="usePositivePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hRO-nt-SHl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MGO-0X-GAq">
+                                <rect key="frame" x="123" y="319" width="128" height="30"/>
+                                <state key="normal" title="Use Negative Data"/>
+                                <connections>
+                                    <action selector="useNegativePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QGV-3w-6VP"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hypothyroid diagnostic" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFW-Cq-SvF">
+                                <rect key="frame" x="20" y="119" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Q2h-xL-97F" firstAttribute="top" secondItem="9Ly-VI-ZAr" secondAttribute="bottom" constant="24" id="8zI-td-JY6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EFW-Cq-SvF" secondAttribute="trailing" constant="20" id="G8y-7I-uaS"/>
+                            <constraint firstItem="9Ly-VI-ZAr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="O4g-kL-V2l"/>
+                            <constraint firstItem="Q2h-xL-97F" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cPX-jl-o7O"/>
+                            <constraint firstItem="9Ly-VI-ZAr" firstAttribute="top" secondItem="EFW-Cq-SvF" secondAttribute="bottom" constant="74" id="cYZ-1l-9xn"/>
+                            <constraint firstItem="EFW-Cq-SvF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="55" id="gVJ-jo-jHE"/>
+                            <constraint firstItem="MGO-0X-GAq" firstAttribute="top" secondItem="Q2h-xL-97F" secondAttribute="bottom" constant="21" id="iau-Ix-snp"/>
+                            <constraint firstItem="MGO-0X-GAq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mOr-ps-9ix"/>
+                            <constraint firstItem="EFW-Cq-SvF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="z8a-Bf-Mnu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3oC-ir-5up"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="372" y="33.733133433283363"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3xN-r5-aEK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Bi0-od-RXp" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IDf-Mg-Nor">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="dTo-lk-env"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ydD-eJ-fmi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-375" y="-6"/>
+        </scene>
+    </scenes>
+</document>
